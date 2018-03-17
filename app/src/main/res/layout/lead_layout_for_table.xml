@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/border">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/leadDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorText"
+            android:text="Lead Date:"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="25dp"/>
+        <TextView
+            android:id="@+id/leadDateTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorText"
+            android:textSize="12sp"
+            android:layout_marginStart="25dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/leadMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorText"
+            android:text="Mobile Number:"
+            android:textSize="12sp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="25dp"/>
+        <TextView
+            android:id="@+id/leadMobileTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:textColor="@color/colorText"
+            android:layout_marginStart="25dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/subscriberName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorText"
+            android:text="Subscriber Number:"
+            android:textSize="12sp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="25dp"/>
+        <TextView
+            android:id="@+id/subscriberNameTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:textColor="@color/colorText"
+            android:layout_marginStart="25dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/managerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorText"
+            android:text="Manager Name:"
+            android:textSize="12sp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="25dp"/>
+        <TextView
+            android:id="@+id/managerNameTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:textColor="@color/colorText"
+            android:layout_marginStart="25dp"/>
+    </TableRow>
+
+</TableLayout>

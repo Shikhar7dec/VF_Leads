@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">POS Leads</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_welcome">Home</string>
+    <string name="title_activity_view_leads">ViewLeads</string>
+    <string name="subscriber_name">Subscriber Name :</string>
+    <string name="mobile_number">Mobile Number :</string>
+    <string name="dealer_code">Dealer Code :</string>
+    <string name="lead_date">Lead Date :</string>
+    <string name="category">Category :</string>
+    <string name="zone">Zone :</string>
+    <string name="manager_name">Manager Name :</string>
+    <string name="dist">District :</string>
+    <string name="dl_name">DL Name :</string>
+    <string name="touch_point">Touch Point :</string>
+    <string name="count">Count :</string>
+    <string name="alternate_number">Alternate Number :</string>
+    <string name="security_deposit">Security Deposit :</string>
+    <string name="capture_address_by_telecaller">Capture Address\n by TeleCaller :</string>
+    <string name="plan">Plan :</string>
+    <string name="is_approved">Status :</string>
+    <string name="remark">Remark :</string>
+    <string name="zone_feedback">Zone FeedBack :</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_lead">Select Lead</string>
+    <string name="title_activity_all_leads">All Leads</string>
+</resources>
